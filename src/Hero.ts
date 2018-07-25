@@ -1,4 +1,4 @@
-import { Human } from './Human';
+import Human from './Human';
 
 export class Hero extends Human {
     constructor(name) {
@@ -7,9 +7,9 @@ export class Hero extends Human {
 }
 
 export default Hero;
-
+/*
 class HelloWorld {
     constructor() {
         console.log('Hello World!');
     }
-}
+}*/

@@ -11,3 +11,11 @@ export class Human {
         return this.name;
     }
 }
+
+export default Human;
+
+class HelloWorld {
+    constructor() {
+        console.log('Hello World!');
+    }
+}
